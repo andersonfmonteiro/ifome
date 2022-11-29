@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+<main class="container">
+    <section>
+        <img src="./img/gSwY2KPzspxRjdA3H2zYlRAHDBgzW6syWFsQsN9j.png"
+        alt="ifome logo">
+        <h2>Eu como tudo isso</h2>
+    </section>
+
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="#" method="POST">
+            <div class="form">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome">
+            <label for="endereco">Endereço</label>
+            <textarea name="endereco" id="endereco" cols="22" rows="4"></textarea>        
+            </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Escolha seu Lanche</legend>
+        <select name="lamches" id="lanches">
+            <option value="">Escolha uma opção</option>
+            <optgroup label="Comidas"></optgroup>
+            <option value="acaraje">Acarajé</option>
+            <option value="x-callback">X-Callback</option>
+            <option value="x-chuchu">X-Chuchu</option>
+            <option value="pudim">Pudim</option>
+            <optgroup label="Bebidas"></optgroup>
+            <option value="guarana">Guaraná</option>
+            <option value="cocacola">Coca-Cola</option>
+            <option value="tamarindo">Suco de Tamarindo</option>
+            <option value="dollynho">Dollynho</option>
+            <option value="cana">Suco de Cana</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Metodo de Pagamento</legend>
+        <input type="radio" name="pagamento" id="dinheiro">
+        <label for="dinheiro">Dinheiro</label>
+        <input type="radio" name="pagamento" id="credito">
+        <label for="credito">Cartão de Credito</label>
+        <input type="radio" name="debito" id="debito">
+        <label for="debito">Cartão de Debito</label>
+        <input type="radio" name="pix" id="pix">
+        <label for="pix">PIX</label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Opcionais</legend>
+        <input type="checkbox" name="colher" id="colher">
+        <label for="colher">Colher</label>
+        <input type="checkbox" name="garfo" id="garfo">
+        <label for="garfo">Garfo</label>
+        <input type="checkbox" name="hashi" id="hashi">
+        <label for="hashi">Hashi</label>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Agendar para Quando?</legend>
+        <input type="datetime-local" name="data" id="data">
+    </fieldset>
+    
+    <button type="submit">Pedir</button>
+    <button type="submit">Cacelar</button>
+</form>    
+</main>
+    
+</body>
+</html>
